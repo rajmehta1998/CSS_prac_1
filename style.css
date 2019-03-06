@@ -1,0 +1,47 @@
+body{
+	background-color: #EEEEEE;
+	font-family: Arial Black, Arial, sans-serif;
+}
+
+#container{
+	background-color: white;
+	width: 1200px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#header{
+	background-color: #C72919;
+	color: white;
+	text-align: center;
+	padding: 12px;
+}
+
+h1, h2{
+	margin: 0;
+}
+
+h2{
+	color: #3498DB;
+}
+
+#content{
+	padding: 12px;
+	text-align: justify;
+	width: 1100px;
+	float: center;
+}
+
+
+#footer{
+	clear: both;
+	text-align: right;
+	padding: 12px;
+	background-color: #D6D914;
+	color: white;
+	width: 1176px;
+	position: fixed;
+	bottom: 0px;
+}
