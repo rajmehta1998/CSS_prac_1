@@ -1,12 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color: #EEEEEE;
+	height: 100%;
 	font-family: Arial Black, Arial, sans-serif;
 }
 
 #container{
 	background-color: white;
 	width: 1200px;
-	height: 100%;
+	min-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -28,12 +34,13 @@ h2{
 }
 
 #content{
+	min-height: 79%;
+	overflow: auto;
 	padding: 12px;
 	text-align: justify;
 	width: 1100px;
 	float: center;
 }
-
 
 #footer{
 	clear: both;
@@ -42,6 +49,7 @@ h2{
 	background-color: #D6D914;
 	color: white;
 	width: 1176px;
-	position: fixed;
+	clear: both;
+	position: relative;
 	bottom: 0px;
 }
